@@ -21,7 +21,7 @@ const EndComp = () => {
         <div>
           <div className="flex w-[300px] gap-3">
             <input
-              className="flex-1 border-[0.75px] border-solid border-white custom-input"
+              className="flex-1 border-[0.75px] border-solid border-white custom-input text-white"
               placeholder="Inserisci la tua email"
             />
             <button className="border-[0.75px] border-solid border-white text-xs px-4 py-2 text-white font-roboto">
