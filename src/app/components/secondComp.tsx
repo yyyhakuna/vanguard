@@ -27,10 +27,10 @@ const Card: React.FC<CardProps> = ({ image, content, description, title }) => {
           {title}
         </div>
       </button>
-      <div className="w-60 h-10 justify-center text-white/60 text-sm font-normal font-Figtree leading-tight">
+      <div className="w-60 h-10 justify-center text-[#a0a0a1] text-sm font-normal font-Figtree leading-tight">
         {description}
       </div>
-      <div className="mt-auto justify-center text-white/60 text-sm font-normal font-Figtree leading-tight">
+      <div className="mt-auto justify-center text-[#a0a0a1] text-sm font-normal font-Figtree leading-tight">
         {content}
       </div>
       <img src={image} className="absolute w-28 right-0 top-0" />
