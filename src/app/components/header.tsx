@@ -39,7 +39,7 @@ const Header = () => {
         <img src="/logo.png" alt="" className="h-[35px] flex-shrink-0" />
         <img src="/vanguard.png" alt="" className="h-[35px] flex-shrink-0" />
       </div>
-      <div className="pt-3 hidden sm:flex pr-56 pl-24 justify-between flex-1">
+      <div className="pt-3 hidden sm:flex px-24 justify-between flex-1">
         {/* pc端样式 */}
         <div className="flex items-center h-10">
           {items.map((item) => {
